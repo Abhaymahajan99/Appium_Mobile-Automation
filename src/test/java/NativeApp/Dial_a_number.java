@@ -35,24 +35,26 @@ public class Dial_a_number {
 
 		Thread.sleep(3000);
 
-		driver.findElement(By.id("com.samsung.android.dialer:id/nine")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/eight")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/zero")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/six")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/five")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/two")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/six")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/six")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/zero")).click();
-		driver.findElement(By.id("com.samsung.android.dialer:id/four")).click();
+		driver.findElement(By.id("com.samsung.android.dialer:id/nine")).click(); //9
+		driver.findElement(By.id("com.samsung.android.dialer:id/eight")).click(); //8
+		driver.findElement(By.id("com.samsung.android.dialer:id/zero")).click(); // 0
+		driver.findElement(By.id("com.samsung.android.dialer:id/six")).click(); //6
+		driver.findElement(By.id("com.samsung.android.dialer:id/five")).click(); //5
+		driver.findElement(By.id("com.samsung.android.dialer:id/two")).click(); //2
+		driver.findElement(By.id("com.samsung.android.dialer:id/six")).click(); //6
+		driver.findElement(By.id("com.samsung.android.dialer:id/six")).click(); //6
+		driver.findElement(By.id("com.samsung.android.dialer:id/zero")).click(); //0
+		driver.findElement(By.id("com.samsung.android.dialer:id/four")).click(); //4
 		
 		Thread.sleep(5000);
 		
-		driver.findElement(By.id("com.samsung.android.dialer:id/dialButton")).click();
+		driver.findElement(By.id("com.samsung.android.dialer:id/dialButton")).click(); // dial button
 		
 		Thread.sleep(5000);
 
 		driver.quit();
+		
+		
 		
 	}
 
